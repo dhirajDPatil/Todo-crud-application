@@ -1,0 +1,49 @@
+.App{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.container{
+    width: 90%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    /* justify-content: space-around; */
+}
+
+textarea{
+    width: 80%;
+}
+
+.taskContainer{
+    margin-top: 5px;
+    padding: 5px 15px;
+    border: 1px solid rgb(80, 180, 14);
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.textItem{
+    margin-top: 5px;
+    width: 70%;
+    height: 30px;
+}
+
+.editTextBox{
+    width: 90%;
+}
